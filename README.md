@@ -58,11 +58,11 @@ Classifier Comparison Table
 
 his table summarizes the models' performance using four metrics: accuracy, precision (macro), recall (macro), and F1-score (macro). Random Forest and SVM outperform Decision Tree and Logistic Regression, both achieving 0.96 for all metrics. Decision Tree lags behind with 0.94 across metrics, while Logistic Regression scores slightly better with 0.95. These numerical comparisons assist in choosing the most robust classifier for crop prediction.
 
-![Boosting Metrics Table](images/boot_met.pmg)
+![Boosting Metrics Table](images/boot_met.png)
 
 Here, Gradient Boosting and XGBoost models yield outstanding performance (accuracy=0.98, F1=0.97), exceeding AdaBoost, which only attains 0.52 accuracy and 0.40 F1-score. The near-identical values for Gradient Boosting and XGBoost demonstrate that both are highly suitable for this soil-crop classification problem, while AdaBoost is not recommended due to its lower scores.
 
-![Classifier Metric Heatmap](images/class_heatmap.png)
+![Classifier Metric Heatmap](images/class_heatmp.png)
 
 This heatmap visualizes metric scores (ranging from 0.94 to 0.96 for most classifiers) in green color intensity. The Random Forest, SVM, and Logistic Regression cells are the darkest green, signaling maximum performance, whereas Decision Tree displays lighter green, denoting comparatively lower accuracy and precision. Heatmaps make it easy for students to grasp comparative strengths at a glance.
 
